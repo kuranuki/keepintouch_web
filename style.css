@@ -134,6 +134,12 @@ body {
   color: #bf783a;
   letter-spacing: 4px;
   font-size: 28px;
+  margin-top: 0px;
+}
+.container-top #features .feature h3 {
+  height:60px;
+  padding-top: 25px;
+  margin: 0px 5px;
 }
 .container-top #features .feature ul li {
   margin-top: 20px;
