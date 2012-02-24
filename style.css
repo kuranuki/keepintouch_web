@@ -84,9 +84,11 @@ body {
 }
 
 .container-top {
-  padding-top: 100px;
+  padding-top: 120px;
+  padding-bottom: 20px;
   width: 100%;
   clear: both;
+  background-image: url('0197.jpg');
 }
 .container-top a {
   color: #f18733;
@@ -241,7 +243,6 @@ body {
   width: 100%;
   clear: both;
   position: relative;
-  top: 40px;
   background-color: #fffdf5;
   box-shadow: inset 0px 8px 10px #bcac97;
   -moz-box-shadow: inset 0px 8px 10px #bcac97;
