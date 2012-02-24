@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script type="text/javascript">
+function play_movie() {
+  javascript:document.getElementById('movie').innerHTML='<iframe width="853" height="480" src="http://www.youtube.com/embed/wSlsy-gsce0?wmode=transparent&&autoplay=1" frameborder="0" allowfullscreen></iframe>';
+  javascript:document.getElementById('thumb').style.display='none';
+}
+</script>
 <html>
   <head>
     <title>"keep in touch" heartful CRM</title>
@@ -34,7 +41,8 @@
       </div>
       <div class="container-top">
         <div id="features">
-          <iframe width="853" height="480" src="http://www.youtube.com/embed/wSlsy-gsce0?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+          <div id="movie"></div>
+	  <img id="thumb" src="movie_thumb.png" onclick="javascript:play_movie()" style="cursor: pointer" title="紹介動画を再生する">
         </div>
       </div>
       <div id="about">
