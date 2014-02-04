@@ -1,3 +1,4 @@
+
 html {
   overflow-x: hidden;
 }
@@ -5,7 +6,7 @@ html {
 body {
   width: 100%;
   font-size: 13px;
-  color: #47331a;
+  color: #67533a;
   line-height: 1.8em;
   letter-spacing: 1px;
   margin: 0;
@@ -32,8 +33,11 @@ body {
 }
 #header h1 {
   float: left;
-  margin-top: 7px;
-  margin-left: 8px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #bf783a;
+  letter-spacing: 4px;
+  font-size: 36px;
+  color: #67533a;
 }
 #header h1 a {
   color: #67533a;
@@ -46,7 +50,7 @@ body {
   float: left;
   list-style-type: none;
   position: relative;
-  top: 18px;
+  top: 14px;
 }
 #header ul li {
   display: inline;
@@ -85,10 +89,8 @@ body {
 
 .container-top {
   padding-top: 120px;
-  padding-bottom: 20px;
   width: 100%;
   clear: both;
-  background-image: url('0197.jpg');
 }
 .container-top a {
   color: #f18733;
@@ -101,11 +103,8 @@ body {
 }
 .container-top #features {
   clear: both;
-  width: 853px;
+  width: 960px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: black;
 }
 .container-top #features .video {
   float: left;
@@ -227,7 +226,6 @@ body {
   color: #bf783a;
   letter-spacing: 4px;
   font-size: 28px;
-  margin-left: 20px;
 }
 .container-middle #footer {
   clear: both;
@@ -243,6 +241,7 @@ body {
   width: 100%;
   clear: both;
   position: relative;
+  top: 40px;
   background-color: #fffdf5;
   box-shadow: inset 0px 8px 10px #bcac97;
   -moz-box-shadow: inset 0px 8px 10px #bcac97;
@@ -290,10 +289,4 @@ body {
 .inner .body table.user_image td {
   padding: 5px;
   width:  320px;
-}
-
-.focus-image {
-  padding: 10px;
-  background-color: white;
-  border: 1px solid #666;
 }
